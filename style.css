@@ -1,0 +1,26 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background: url('background.jpg') repeat-y;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.content_tiltle{
+    text-align: center;
+    background-color: green;
+    color: #ffff;
+    font-size: 20px;
+    margin: 21px 113px;
+}
+.title{
+    color: blue;
+    padding: 5px 0;
+}
+.hightlight{
+    background-color: yellow;
+    line-height: 44px;
+
+}
