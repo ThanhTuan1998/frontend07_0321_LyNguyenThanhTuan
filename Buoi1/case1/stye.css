@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contaier {
+    width: 38%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+}
+.contaier h1 {
+    padding: 10px 60px;
+    border: 4px solid green;
+}
