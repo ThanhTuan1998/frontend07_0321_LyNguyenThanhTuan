@@ -1,0 +1,22 @@
+.box{
+    width: 100%;
+    margin: auto;
+}
+@font-face {
+    font-family:Sansity ;
+    src: url(../fonts/SansitaSwashed-Bold.ttf);
+}
+.box{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+}
+.box h1{
+    text-align: center;
+    background-color: indigo;    
+    font-family: Sansity;
+    color: white;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
