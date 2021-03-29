@@ -1,26 +1,33 @@
 *{
-    padding: 0;margin: 0;
     box-sizing: border-box;
 }
 .container{
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     background-color: yellow;
     height: 300px;
 }
+.box span{
+    color: yellow;
+}
 .boxA,.boxB{
-    width: 25%;
-    float: left;
-    font-size: 13px;
-    padding: 34px 20px;
+    width: 24%;
+    display: inline-block;
+    font-size: 0;
+    margin: 10px 0;
+    color: white;
 }
 .boxA{
     background-color: teal;
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px 0;
 }
 .boxB{
-    background-color: blueviolet;
+    background-color: aqua;
     display: inline-block;
     padding: 20px;
+    margin: 10px 0;
+    font-size: 15px;
 }
