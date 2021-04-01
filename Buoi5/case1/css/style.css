@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --green: green;
+    --blue:blue;
+    --red:red;
+    --gray:gray;
+    --black:black;
+  }
+table {
+    width:100%;
+    border: 1px solid var(--black);
+}
+  
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    padding:5px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+tr:nth-child(even):hover{
+    background-color: #eee;
+    transition: 0.4s;
+}
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+th {
+background-color: var(--black);
+color: white;
+}
+.number input
+{
+    width: 50%;
+}
+
+.green{
+    width: 100px;
+    height: 38px;
+    border: none;
+    border-radius: 200px;
+    background-color: var(--green);
+    padding:8px 10px;
+    color: white;
+}
+.blue{
+    width: 120px;
+    height: 38px;
+    border: none;
+    border-radius: 200px;
+    background-color: var(--blue);
+    padding:3px;
+    color: white;
+    white-space: nowrap;
+}
+.icon i{
+    padding: 0px 3px;
+}
+.btn-cricle{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 200px;
+    color: white;
+    cursor: pointer;
+}
+.green-cricle{
+    background-color: var(--green);
+}
+.red-cricle{
+    background-color: var(--red);
+}
+.gray-cricle{
+    background-color: var(--gray);
+}
+.green-cricle i,.red-cricle i,.gray-cricle i{
+    font-size: 10px;
+}
