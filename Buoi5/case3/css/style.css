@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    margin: 10px auto;
+}
+.clear {
+    clear: both;
+}
+.header {
+    float: right;
+}
+.header ul li {
+    display: inline;
+    margin: 0 8px;
+}
+.header ul li img {
+    vertical-align: bottom;
+}
+.header ul li:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+.header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.btn_sign {
+    width: 100px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1a73e8;
+    color: white;
+}
+.btn_sign:hover {
+    cursor: pointer;
+}
+.btn_sign:focus {
+    outline: none;
+}
+.info_search {
+    text-align: center;
+    padding: 200px 0;
+}
+.info_search img {
+    width: 15%;
+    text-align: center;
+}
+.form__input {
+    position: relative;
+}
+form input {
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    border: 1px solid #d7cdcd;
+    background-color: transparent;
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.fa {
+    position: absolute;
+}
+.fa-search {
+    right: 63%;
+    top: 40%;
+}
+.fa-microphone {
+    left: 63%;
+    top: 40%;
+}
+form input:hover {
+    background-color: transparent;
+}
+form input:focus {
+    outline: none;
+}
+.gg__search {
+    padding: 20px 0;
+}
+.btn {
+    padding: 10px;
+    margin: 0 30px;
+    border: none;
+}
+.btn:hover {
+    background-color: #d7cdcd;
+    border: 1px solid #d7cdcd;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.btn:focus {
+    outline: none;
+}
+.languae ul li {
+    display: inline-block;
+    padding: 0 3px;
+}
+.languae ul li a {
+    text-decoration: none;
+}
+.languae ul li a:hover {
+    width: 100%;
+    border: 1px solid blueviolet;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.VN {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    background-color: #f2f2f2;
+}
+.content ul {
+    display: inline-block;
+    margin-right: 400px;
+}
+.content_left li {
+    float: left;
+    margin-right: 100px;
+}
+.content_rigght ul {
+    float: right;
+}
+.content_rigght li {
+    text-align: left;
+}
